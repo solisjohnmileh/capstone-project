@@ -1,0 +1,65 @@
+
+.relative{
+  position: relative;
+}
+
+
+
+
+.circle{
+  background-color: white;
+  width: 700px;
+  height: 700px;
+  border-radius: 50rem;
+  position: fixed;
+  left: -180px;
+  bottom: -80px;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.circle-2{
+  background-color: white;
+  width: 800px;
+  height: 800px;
+  border-radius: 50rem;
+  position: fixed;
+  left: 200px;
+  bottom: -400px;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.pan-container{
+  
+  position: fixed;
+  bottom: 0;
+}
+
+.pan-img{
+  width: 500px;
+  
+}
+
+.plan-text-container{
+  position: fixed;
+  font-size: clamp(10px, 2vw, 30px);
+  bottom: 200px;
+  left: 550px;
+  width: fit-content;
+
+}
+
+.cuisine-text-container{
+
+    position: fixed;
+  font-size: clamp(10px, 2.5vw, 40px);
+  bottom: 40px;
+  left: 505px;
+  font-weight: 600;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 2px;
+  padding: 3px 3px 3px 3px;
+   width: fit-content;
+}

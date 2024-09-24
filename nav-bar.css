@@ -1,0 +1,133 @@
+.img-icon2, .img-icon3{
+  width: 40px;
+}
+
+.img-icon1{
+  width: 48px;
+}
+
+.nav-btn{
+
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.btn-design{
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+
+.Quick{
+  margin-left: 1rem;
+  background-color:  #5a8473;
+  border-radius: 2rem;
+  padding: 1px 10px 5px 10px;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.nav-bar-ico .Recipe{
+  margin-left: 2px;
+  position: relative;
+  font-size: 25px;
+}
+
+.relative{
+  position: relative;
+}
+
+.storage-count{
+  
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  background-color: #E1AD01;
+  padding: 1px 8px 1px 8px;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.nav-btn .tool-tip{
+  position: absolute;
+  background-color: #5a8473;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 5px 5px 5px 5px;
+   bottom: -40px;
+  right: 2px;
+  opacity: 0;
+  
+}
+
+.plan-btn .tool-tip{
+  position: absolute;
+  background-color: #5a8473;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 5px 5px 5px 5px;
+   bottom: -40px;
+    right: -20px;
+  white-space: nowrap;
+  opacity: 0;
+ 
+}
+
+.login-btn .tool-tip{
+  position: absolute;
+  background-color: #5a8473;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 5px 5px 5px 5px;
+   bottom: -40px;
+    right: -2px;
+  white-space: nowrap;
+  opacity: 0;
+ 
+}
+
+
+.login-btn:hover .tool-tip{
+  opacity: 1;
+}
+
+
+.plan-btn:hover .tool-tip{
+  opacity: 1;
+}
+
+.nav-btn:hover .tool-tip{
+  opacity: 1;
+}
+
+.nav-bar-ico .Recipe::after{
+
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  transform: scale(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.nav-bar-ico .Recipe:hover::after{
+
+  transform: scaleX(1);
+  transform-origin: left;
+
+}
+
+
