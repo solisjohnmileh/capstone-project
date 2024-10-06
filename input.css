@@ -21,7 +21,7 @@
   border: none;
   background-color: transparent;
   position: absolute;
-  right: 45px;
+  right: 22px;
   bottom: 19px;
 
 }
@@ -31,7 +31,7 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
-  right: 80px;
+  right: 55px;
   bottom: 20px;
 }
 
@@ -39,7 +39,7 @@
 
   
     
-  font-size: 16px;
+    font-size: 16px;
   border-radius: 2rem;
   border: none;
   padding: 8px 10rem 8px 20px;
