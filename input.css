@@ -21,8 +21,8 @@
   border: none;
   background-color: transparent;
   position: absolute;
-  right: 4px;
-  bottom: 8px;
+  right: 22px;
+  bottom: 19px;
 
 }
 
@@ -31,13 +31,15 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
-  right: 36px;
-  bottom: 9px;
+  right: 55px;
+  bottom: 20px;
 }
 
 .input-user{
 
   
+    
+    font-size: 16px;
   border-radius: 2rem;
   border: none;
   padding: 8px 10rem 8px 20px;
@@ -71,3 +73,4 @@
   transition: 0.2s;
 
 }
+
