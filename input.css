@@ -48,6 +48,7 @@
   border-width: 2px;
   background-color: transparent;
   font-weight: 500;
+  margin-left: 20px
 }
 
 .input-user::placeholder{
