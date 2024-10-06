@@ -22,7 +22,7 @@
   background-color: transparent;
   position: absolute;
   right: 22px;
-  bottom: 19px;
+  bottom: 9px;
 
 }
 
@@ -32,14 +32,15 @@
   border: none;
   background-color: transparent;
   right: 55px;
-  bottom: 20px;
+  bottom: 10px;
 }
 
 .input-user{
 
   
-    
-    font-size: 16px;
+  width: 90%; /* Full width on smaller screens */
+  max-width: 500px; /* Set a maximum width */
+  font-size: 16px;
   border-radius: 2rem;
   border: none;
   padding: 8px 10rem 8px 20px;
