@@ -1,0 +1,206 @@
+@media (max-width: 1024px) {
+
+          .circle{
+            width: 600px;
+             height: 600px;
+       
+          }
+
+          .circle-2{
+            width: 700px;
+            height: 700px;
+            
+            
+          }
+
+          .pan-img{
+        width: 400px;
+        
+      }
+
+      .plan-text-container{
+         bottom: 150px;
+        left: 500px;
+      }
+      
+      .cuisine-text-container{
+
+          bottom: 40px;
+          left: 465px;
+      }
+
+  
+
+}
+
+
+
+@media (max-width: 991px) {
+
+          .circle{
+            width: 600px;
+        height: 600px;
+          }
+
+          .circle-2{
+            width: 700px;
+            height: 700px;
+            
+          }
+
+          .pan-img{
+        width: 300px;
+        
+      }
+
+      .plan-text-container{
+         bottom: 150px;
+        left: 500px;
+      }
+      
+      .cuisine-text-container{
+
+          bottom: 40px;
+          left: 465px;
+      }
+
+   .input-container{
+      bottom: 450px;
+   }
+
+
+}
+
+@media (max-width: 760px) {
+
+      .circle{
+        width: 500px;
+        height: 500px;
+      }
+
+      .circle-2{
+        width: 600px;
+        height: 600px;
+        left: -5px;
+        
+      }
+
+      .pan-img{
+    width: 300px;
+    
+  }
+  
+  .plan-text-container{
+
+     bottom: 100px;
+        left: 340px;
+
+  }
+  
+  .cuisine-text-container{
+    
+    
+          bottom: 20px;
+          left: 300px;
+  }
+
+
+
+}
+
+@media (max-width: 540px) {
+
+.input-container{
+      bottom: 250px;
+   }
+   
+
+
+
+  
+}
+
+
+@media (max-width: 450px) {
+
+          .circle{
+            width: 500px;
+        height: 500px;
+          }
+
+          .circle-2{
+            width: 600px;
+            height: 600px;
+            left: -5px;
+            
+            
+          }
+
+          .pan-img{
+        width: 250px;
+        
+      }
+
+
+      .plan-text-container{
+
+        bottom: 100px;
+        left: 280px;
+
+      }
+      
+      .cuisine-text-container{
+
+
+        bottom: 50px;
+          left: 265px;
+      }
+      
+}
+
+@media (max-width: 375px) {
+  
+    .plan-text-container{
+
+        bottom: 100px;
+        left: 250px;
+
+      }
+      
+      .cuisine-text-container{
+
+
+        bottom: 50  px;
+          left: 235px;
+      }
+
+.input-container{
+      bottom: 300px;
+   }
+   
+
+
+}
+
+@media (max-width: 345px) {
+  
+    .plan-text-container{
+
+        bottom: 100px;
+        left: 250px;
+
+      }
+      
+      .cuisine-text-container{
+
+
+        bottom: 20px;
+          left: 235px;
+      }
+
+}
+
+
+/*     FOR MIDDLE  CONTENT    */
+
+

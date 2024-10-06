@@ -1,0 +1,73 @@
+.relative{
+  position: relative;
+}
+
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+   
+}
+
+.user-button{
+  margin-top: 5px;
+}
+
+.search-btn{
+
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 4px;
+  bottom: 8px;
+
+}
+
+.add-btn{
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  right: 36px;
+  bottom: 9px;
+}
+
+.input-user{
+
+  
+  border-radius: 2rem;
+  border: none;
+  padding: 8px 10rem 8px 20px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: transparent;
+  font-weight: 500;
+}
+
+.input-user::placeholder{
+  
+  padding-left: 10px;
+   
+  color: black;
+  font-weight: 400;
+}
+
+.btn-user{
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  padding: 8px 12px 8px 12px;
+  font-weight: 400;
+}
+
+.btn-user:hover{
+
+  background-color: #5a8473;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+
+}
