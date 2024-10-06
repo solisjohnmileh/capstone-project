@@ -1,206 +1,219 @@
-@media (max-width: 1024px) {
+/* Base styles for the smallest screen sizes (default) */
+.circle {
+    width: 300px;
+    height: 300px;
+}
 
-          .circle{
-            width: 600px;
-             height: 600px;
-       
-          }
+.circle-2 {
+    width: 400px;
+    height: 400px;
+}
 
-          .circle-2{
-            width: 700px;
-            height: 700px;
-            
-            
-          }
+.pan-img {
+    width: 200px;
+}
 
-          .pan-img{
+.plan-text-container {
+    bottom: 50px;
+    left: 160px;
+}
+
+.cuisine-text-container {
+    bottom: 5px;
+    left: 160px;
+}
+
+.input-container {
+    bottom: 200px;
+}
+
+/* Larger than 345px */
+@media (min-width: 346px) {
+    .circle {
         width: 400px;
-        
-      }
+        height: 400px;
+    }
 
-      .plan-text-container{
-         bottom: 150px;
-        left: 500px;
-      }
-      
-      .cuisine-text-container{
-
-          bottom: 40px;
-          left: 465px;
-      }
-
-  
-
-}
-
-
-
-@media (max-width: 991px) {
-
-          .circle{
-            width: 600px;
-        height: 600px;
-          }
-
-          .circle-2{
-            width: 700px;
-            height: 700px;
-            
-          }
-
-          .pan-img{
-        width: 300px;
-        
-      }
-
-      .plan-text-container{
-         bottom: 150px;
-        left: 500px;
-      }
-      
-      .cuisine-text-container{
-
-          bottom: 40px;
-          left: 465px;
-      }
-
-   .input-container{
-      bottom: 450px;
-   }
-
-
-}
-
-@media (max-width: 760px) {
-
-      .circle{
+    .circle-2 {
         width: 500px;
         height: 500px;
-      }
+        left: -5px;
+    }
 
-      .circle-2{
+    .plan-text-container {
+        bottom: 50px;
+        left: 250px;
+    }
+
+    .cuisine-text-container {
+        bottom: 10px;
+        left: 235px;
+    }
+
+    .input-container {
+        bottom: 300px;
+    }
+
+     .input-user {
+        max-width: 350px;
+    }
+}
+
+/* Larger than 375px */
+@media (min-width: 376px) {
+    .plan-text-container {
+        bottom: 60px;
+        left: 250px;
+    }
+
+    .cuisine-text-container {
+        bottom: 15px;
+        left: 250px;
+    }
+
+    .input-container {
+        bottom: 250px;
+    }
+}
+
+/* Larger than 450px */
+@media (min-width: 451px) {
+    .circle {
+        width: 500px;
+        height: 500px;
+    }
+
+    .circle-2 {
         width: 600px;
         height: 600px;
         left: -5px;
-        
-      }
+    }
 
-      .pan-img{
-    width: 300px;
-    
-  }
-  
-  .plan-text-container{
-
-     bottom: 100px;
-        left: 340px;
-
-  }
-  
-  .cuisine-text-container{
-    
-    
-          bottom: 20px;
-          left: 300px;
-  }
-
-
-
-}
-
-@media (max-width: 540px) {
-
-.input-container{
-      bottom: 250px;
-   }
-   
-
-
-
-  
-}
-
-
-@media (max-width: 450px) {
-
-          .circle{
-            width: 500px;
-        height: 500px;
-          }
-
-          .circle-2{
-            width: 600px;
-            height: 600px;
-            left: -5px;
-            
-            
-          }
-
-          .pan-img{
+    .pan-img {
         width: 250px;
-        
-      }
+    }
 
-
-      .plan-text-container{
-
-        bottom: 100px;
+    .plan-text-container {
+        bottom: 120px;
         left: 280px;
+    }
 
-      }
-      
-      .cuisine-text-container{
-
-
+    .cuisine-text-container {
         bottom: 50px;
-          left: 265px;
-      }
-      
-}
+        left: 265px;
+    }
 
-@media (max-width: 375px) {
-  
-    .plan-text-container{
-
-        bottom: 100px;
-        left: 250px;
-
-      }
-      
-      .cuisine-text-container{
-
-
-        bottom: 50  px;
-          left: 235px;
-      }
-
-.input-container{
-      bottom: 300px;
-   }
+  .input-user {
+        max-width: 400px;
+    }
    
-
-
 }
 
-@media (max-width: 345px) {
-  
-    .plan-text-container{
+/* Larger than 540px */
+@media (min-width: 541px) {
+    .input-container {
+        bottom: 250px;
+    }
 
+     .input-user {
+        max-width: 450px;
+    }
+}
+
+/* Larger than 760px */
+@media (min-width: 761px) {
+    .circle {
+        width: 500px;
+        height: 500px;
+    }
+
+    .circle-2 {
+        width: 600px;
+        height: 600px;
+        left: -5px;
+    }
+
+    .pan-img {
+        width: 300px;
+    }
+
+    .plan-text-container {
         bottom: 100px;
-        left: 250px;
+        left: 340px;
+    }
 
-      }
-      
-      .cuisine-text-container{
-
-
+    .cuisine-text-container {
         bottom: 20px;
-          left: 235px;
-      }
+        left: 300px;
+    }
 
+     .input-user {
+        max-width: 500px;
+    }
 }
 
+/* Larger than 991px */
+@media (min-width: 992px) {
+    .circle {
+        width: 600px;
+        height: 600px;
+    }
 
-/*     FOR MIDDLE  CONTENT    */
+    .circle-2 {
+        width: 700px;
+        height: 700px;
+    }
 
+    .pan-img {
+        width: 300px;
+    }
 
+    .plan-text-container {
+        bottom: 150px;
+        left: 370px;
+    }
+
+    .cuisine-text-container {
+        bottom: 40px;
+        left: 350px;
+    }
+
+    .input-container {
+        bottom: 450px;
+    }
+
+     .input-user {
+        max-width: 600px;
+    }
+}
+
+/* Larger than 1024px */
+@media (min-width: 1025px) {
+    .circle {
+        width: 700px;
+        height: 700px;
+    }
+
+    .circle-2 {
+        width: 900px;
+        height: 900px;
+    }
+
+    .pan-img {
+        width: 400px;
+    }
+
+    .plan-text-container {
+        bottom: 180px;
+        left: 500px;
+    }
+
+    .cuisine-text-container {
+        bottom: 40px;
+        left: 400px;
+    }
+
+    .input-user {
+        max-width: 700px;
+    }
+}
