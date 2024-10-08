@@ -72,7 +72,7 @@ updatePantry();
     });
 
 
-     document.querySelector('.input-user').
+ document.querySelector('.input-user').
   addEventListener("keypress", (event)=>{
 
   
@@ -96,7 +96,7 @@ updatePantry();
     }
 
 
-
+  });
 
 
 
