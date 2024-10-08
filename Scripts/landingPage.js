@@ -72,6 +72,28 @@ updatePantry();
     });
 
 
+     document.querySelector('.input-user').
+  addEventListener("keypress", (event)=>{
+
+  
+
+    if(event.key === "Enter"){
+
+      const userInput = event.target;
+       
+     let isIngredientInput = userInput.value.toLowerCase();
+
+      if(isIngredientInput){
+
+          
+            addToPantry(isIngredientInput);
+            updatePantry();
+          
+            userInput.value='';
+
+      }
+      
+    }
 
 
 
